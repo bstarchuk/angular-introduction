@@ -5,7 +5,7 @@ import { Hero } from '../heroes/interfaces';
 @Component({
   selector: 'app-hero-detail',
   templateUrl: './hero-detail.component.html',
-  styleUrls: ['./hero-detail.component.scss']
+  styleUrls: ['./hero-detail.component.scss'],
 })
 export class HeroDetailComponent {
   @Input() hero?: Hero;
